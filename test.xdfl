@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?> 
+<xdfl>
+  <palette>
+    <material>
+      <id>1</id>
+      <areaconstant>1</areaconstant>
+      <compressionvolume>0.1191</compressionvolume>
+      <name>valve1</name>
+      <pathheight>0.7</pathheight>
+      <pathspeed>30</pathspeed>
+      <pathwidth>0.8</pathwidth>
+    </material>
+    <material>
+      <id>2</id>
+      <areaconstant>1</areaconstant>
+      <compressionvolume>0.1191</compressionvolume>
+      <name>valve2</name>
+      <pathheight>0.7</pathheight>
+      <pathspeed>30</pathspeed>
+      <pathwidth>0.8</pathwidth>
+    </material>
+  </palette>
+</xdfl>
