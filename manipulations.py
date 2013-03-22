@@ -183,10 +183,10 @@ def forEachPoint(fabTree, argFunction, arguments, targetMatId=-1):
         if (type(None) != type(matidel)): 
             matid = int(matidel.text)
         
-        print "ID is %i, target is%i"%(matid,targetMatId)
+        #print "ID is %i, target is%i"%(matid,targetMatId)
         
         if ((targetMatId==-1) or (matid== targetMatId)):
-            print "doing"
+            
             for point in path.findall("point"):
                 elements = []
                 for i in range(0,3):elements.append(Element(axes[i]))
@@ -263,7 +263,7 @@ def getMaterial(fabTree):
 def getPaths(fabTree):
     root = fabTree.getroot()
     cmd = root.find("commands")
-    return cmd.findall()
+    return cmd.findall("path")
     
 #####################################################
 def indent(elem, level=0):
