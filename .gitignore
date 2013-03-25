@@ -1,6 +1,7 @@
 #################
 ## Eclipse
 #################
+*.dat
 
 *.pydevproject
 .project
