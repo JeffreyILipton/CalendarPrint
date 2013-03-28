@@ -7,12 +7,12 @@ calPerGram_2 = 120.0/80.0
 densityOfCookie=1#????
 calPerMM3_1 = densityOfCookie*calPerGram_1*0.001
 calPerMM3_2 = densityOfCookie*calPerGram_2*0.001
-volPerLayer = 740 #mm^3 = .74 m
+volPerLayer = 3928 #mm^3 = .74 m
 oddLayer1 = "odd-layer-1.xdfl"
 oddLayer2 = "odd-layer-2.xdfl"
 evenLayer1 = "even-layer-1.xdfl"
 evenLayer2 = "even-layer-2.xdfl"
-layerheight = .7
+layerheight = 1.3
 clearance=10
 speed=30
 
