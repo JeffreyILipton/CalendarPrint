@@ -18,7 +18,7 @@ calsBurned = burned(eventList,guy)
 guy.ate(calsEaten)
 guy.exercised(calsBurned)
 
-makeCookie(guy.calRemaining()*0.2)
+makeCookie(guy.calRemaining()*0.1)
 
 print eventList
 guy.printSelf()
